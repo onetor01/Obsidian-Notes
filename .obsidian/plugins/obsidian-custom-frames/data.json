@@ -1,0 +1,29 @@
+{
+  "frames": [
+    {
+      "url": "http://kimi.moonshot.cn",
+      "displayName": "Kimi",
+      "icon": "moon",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://claude.ai/new",
+      "displayName": "Claude",
+      "icon": "regex",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}
