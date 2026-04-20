@@ -1,6 +1,6 @@
 {
   "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "{{date:YYYY-MM-DD HH:mm}} 自动备份",
+  "autoCommitMessage": "{{date}} 自动备份",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 15,
