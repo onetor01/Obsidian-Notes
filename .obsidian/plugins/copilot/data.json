@@ -25,7 +25,7 @@
   "githubCopilotTokenExpiresAt": 0,
   "defaultChainType": "llm_chain",
   "defaultModelKey": "gpt-5.4-pro|3rd party (openai-format)",
-  "embeddingModelKey": "openai/text-embedding-3-small|openrouterai",
+  "embeddingModelKey": "text-embedding-3-large|openrouterai",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
@@ -386,6 +386,18 @@
       "isEmbeddingModel": true,
       "core": true,
       "baseUrl": "https://api.siliconflow.com/v1"
+    },
+    {
+      "name": "text-embedding-3-large",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://bmc-llm-relay.bluemediagroup.cn/v1",
+      "apiKey": "sk-XSdFJkl3RwxLKHLPi5Q4gh1IEjytWU8RmFBaRgQQdEbbwaIR",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "text-embedding-3-large（bmc）",
+      "enableCors": true
     },
     {
       "name": "text-embedding-3-large",
