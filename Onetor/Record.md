@@ -111,4 +111,7 @@ except Exception as e:
 # ── AFC 诊断 monkey-patch END ──────────────────────────────────────────
 ```
 
-
+```
+1. adk 关于 skill 的支持（包括版本升级、多服务器部署、热加载、防注入等等）
+2. adk 关于 memory 的支持 （memory service 的选取）
+```
